@@ -1,0 +1,24 @@
+{
+  "name": "cih_monster_project",
+  "version": "1.0.0",
+  "description": "chain InterHap Game project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "truffle": "5.0.22",
+    "@truffle/debug-utils": "^4.1.1",
+    "@truffle/hdwallet-provider": "^1.0.34",
+    "@openzeppelin/test-environment": "^0.1.4",
+    "@openzeppelin/test-helpers": "^0.5.5"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "ganache": "ganache-cli -e 1000",
+    "migrate": "truffle migration",
+    "mocha": "mocha --exit --recursive"
+  }
+}
